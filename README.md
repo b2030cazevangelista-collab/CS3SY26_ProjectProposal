@@ -15,13 +15,13 @@
     Methods: get_name(), set_name(), get_address(), set_address()
       **Customer:**
         Attributes: Name, Address, Payment_method
-        Methods: place_order(restaurant, dish), add_payment(amount), receive_dish(), eat_dish()
+        Methods: place_order(restaurant, dish), add_payment(amount), receive_dish(), eat_dish(), rate_restaurant(restaurant, score), rate_delivery_unit(delivery_unit, score)
 **Restaurant:**
-    Attributes: Name, CuisineType, Location, OperatingHours, Menu
-    Methods: get_cuisinetype(), set_cuisinetype(cuisine_type), check_availability(time), receive_order(order), prepare_dish(), estimate_prep(), call_DeliveryUnit(deliveryunit)
+    Attributes: Name, CuisineType, Location, OperatingHours, Menu, AverageRating, TotalReviews
+    Methods: get_cuisine_type(), set_cuisine_type(cuisine_type), check_availability(time), receive_order(order), prepare_dish(), estimate_prep(), call_delivery_Unit(delivery_unit), update_rating(new_score)
 **DeliveryUnit:**
-    Attributes: PlateNumber, Status
-    Methods: receive_dish(), change_status(), give_dish(), ETA(distance)
+    Attributes: PlateNumber, Status, Rating
+    Methods: receive_dish(), change_status(), give_dish(), ETA(distance), update_rating(new_score)
       **MotorcycleUnit:**
           Attrubutes:
           Methods: ETA(distance)
