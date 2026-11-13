@@ -2,10 +2,10 @@
 
 
 ## Project Proposal Template:
-### Project Title or Name of the Application	:
-### Section			   	      :
-### Group Members			    :
-### Date (Proposal Date)  : Nov 5, 2026
+### Project Title or Name of the Application	: TarcyEats
+### Section			   	      : 9-Lithium
+### Group Members			    : Kirby Duque, Carl Evangelista, Ashley Tejada
+### Date (Proposal Date)  : Nov 11, 2026
 ### Project Description:
 
  This project aims to develop an OOP simulation of a Food Delivery Service System designed to provide a convenient, and seamless solution for consumers to be able to buy food without leaving the comfort of their homes. The system is designated to help those who are sick, busy employees, students, elderly individuals, and those who simply want to enjoy the taste of a fast food meal within their homes. Through this app, consumers can search for restaurants based on their preferred type of cuisine, view available dishes, and place food orders. The app will also provide the estimated travel time of the delivery unit, which can allow customers to see how long it will take for their food to arrive.
